@@ -94,13 +94,13 @@ static void uart_flush(void)
     }
 }
 
-int main(void)
+int main()
 {
     uart_init();
     uart_puts("hello world\r\n");
     uart_flush();
 
     for (;;) {
-        __asm__ volatile ("nop");
+        __asm__ volatile ("wfi");
     }
 }

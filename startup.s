@@ -72,6 +72,7 @@ Reset_Handler:
 6:
     bl main
 7:
+    wfi
     b 7b
 
 .section .text.Default_Handler, "ax", %progbits
