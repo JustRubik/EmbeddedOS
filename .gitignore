@@ -1,0 +1,29 @@
+# Build output
+/build/
+*.o
+*.elf
+*.bin
+*.map
+
+# Toolchain junk
+*.d
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup
+*.bak
+
+# QEMU
+*.img
