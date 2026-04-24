@@ -5,3 +5,5 @@ Sơ đồ luồng dữ liệu cho cách MakeFile hoạt động trong hệ thố
     Giai đoạn 2 (Linking): Trình liên kết (ld) gom tất cả file .o lại, kết hợp với file linker.ld (để biết địa chỉ RAM/Flash của con Cortex-M3) nhằm tạo ra file .elf.
 
     Giai đoạn 3 (Post-process): Dùng objcopy để chuyển file .elf (chứa nhiều thông tin debug) thành file .bin gọn nhẹ để nạp xuống chip.
+
+
